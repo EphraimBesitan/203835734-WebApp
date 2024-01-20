@@ -6,6 +6,8 @@
     <title>HTML Exercises</title>
 </head>
 <body>
+    <section>
+    <footer>
     <h1>Links Exercise </h1>
     <h1>Home</h1>
     <a href="">Home Page</a>
@@ -13,19 +15,29 @@
     <a href="">About Us Page</a>
     <h1>Contanct</h1>
     <a href="">Contact Page</a>
+    </footer>
+    </section>
+
+    <header>
     <h1>Image Sample</h1>
+    <figure>
     <img src="Bandit - Copy.png" alt="Pixel Art">
+    <figcaption>Fig1. - Bandit, Pixel Art.</figcaption>
+    </figure>
+    </header>
+
+    <section>
     <h1>Form Sample</h1>
     <form action="action_page.php" method="POST">
-        <div>
+        <nav>
             <label for="uname">User Name:</label>
-            <input type="text" id="uname" name="uname">
-        </div>
+            <input type="text" id="uname" name="uname" minlength="3" maxlength="10" required>
+        </nav>
         <br>
-        <div>
+        <nav>
             <label for="pname">User Password:</label>
-            <input type="text" id="pname" name="pname">
-        </div>
+            <input type="text" id="pname" name="pname" minlength="3" maxlength="10" pattern="[A-Z]" required>
+        </nav>
         <br>
         <form>
             <p>Please choose your gender:</p>
@@ -41,9 +53,10 @@
             <label for="condition1">Accept</label><br>
             <input type="checkbox" id="condition2" name="condition2" value="No">
             <label for="condition2">No I don't trust you</label><br>
-        <div><br>
+        <nav><br>
             <input type="submit">
-        </div>
+        </nav>
+        </section>
         </form>
     </form>
 
