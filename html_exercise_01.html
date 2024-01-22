@@ -5,15 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Exercises</title>
 </head>
+<style>
+table, th, td {
+    border: 1px solid black;
+}
+</style>
 <body>
     <section>
     <footer>
-    <h1>Links Exercise </h1>
-    <h1>Home</h1>
+    <h2>Links Exercise </h2>
+    <h3>Home</h3>
     <a href="">Home Page</a>
-    <h1>About Us</h1>
+    <h4>About Us</h4>
     <a href="">About Us Page</a>
-    <h1>Contanct</h1>
+    <h5>Contanct</h5>
     <a href="">Contact Page</a>
     </footer>
     </section>
@@ -21,13 +26,13 @@
     <header>
     <h1>Image Sample</h1>
     <figure>
-    <img src="Bandit - Copy.png" alt="Pixel Art">
+    <img src="BanditCopy.png" alt="Pixel Art">
     <figcaption>Fig1. - Bandit, Pixel Art.</figcaption>
     </figure>
     </header>
 
     <section>
-    <h1>Form Sample</h1>
+    <h2>Form Sample</h2>
     <form action="action_page.php" method="POST">
         <nav>
             <label for="uname">User Name:</label>
@@ -39,16 +44,16 @@
             <input type="text" id="pname" name="pname" minlength="3" maxlength="10" pattern="[A-Z]" required>
         </nav>
         <br>
-        <form>
+
             <p>Please choose your gender:</p>
             <input type="radio" id="male" name="gender_opt" value="Male">
             <label for="male">Male</label><br>
             <input type="radio" id="female" name="gender_opt" value="Female">
             <label for="male">Female</label><br>
-        </form><br>
+        <br>
         <p>User Agreement for Terms and Conditions:</p>
         <p>Read our Terms and Conditions before proceeding.</p>
-        <form action="action_page.php">
+        
             <input type="checkbox" id="condition1" name="condition1" value="Accept">
             <label for="condition1">Accept</label><br>
             <input type="checkbox" id="condition2" name="condition2" value="No">
@@ -56,14 +61,10 @@
         <nav><br>
             <input type="submit">
         </nav>
-        </section>
-        </form>
     </form>
-
-    <style>
-    table, th, td{border:1px solid black;}
-    </style>
-    <h1>Sample Table</h1>
+    </section>
+    <nav>
+    <h2>Sample Table</h2>
     <table style="width:100%">
         <tr>
             <th>Name</th>
@@ -88,7 +89,8 @@
     <h1>Video Sample</h1>
     <video width="400" height="300" controls>
         <source src="Jump.mp4" type="video/mp4">
-    </video>     
-    
+    </video>
+    </nav>     
+ 
 </body>
 </html>
