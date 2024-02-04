@@ -6,25 +6,81 @@
     <title>HTML Exercises</title>
 
     <style>
-    h2, ul, figure {
-        text-align: center;
-    }
+        *{
+            padding:0;
+            margin:0;
+        }
+        Nav{
+            width:100%;
+            height:75px;
+            background-color: gray;
+            text-align: center;
+            position: sticky;
+        }
+        .nav li{
+            display:inline;
+            float:left;
+            margin-top: 1.2%;
+        }
+        .nav li a{
+            display:block;
+            padding: 8px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+        h2 {
+            text-align: center;
+        }
+        #Homepage{
+            width: 100%;
+            height: 1500px;
+            border: 1px solid black;
+        }
+        #Aboutus{
+            width: 100%;
+            height: 1500px;
+            border: 1px solid black;
+        }
+        #Mapview{
+            width: 100%;
+            height: 1500px;
+            border: 1px solid black;
+        }
+        
+
+
+    
     </style>
 
 </head>
 <body>
     <h2>Website</h2><br>
     <h2>Need Something ?</h2>
-    <ul>
-        <a href="">Home Page</a><br>
-        <a href="">About Us Page</a><br>
-        <a href="">Contact Page</a><br>
-    </ul>
+    <header>
+        <Nav>
+            <ul class="nav">
+                <li style="margin-left: 40%;"><a href="html_exercise_02.html">Home Page</a></li>
+                <li><a href="html_exercise_02.html">About Us Page</a></li>
+                <li><a href="html_exercise_02.html">Map View</a></li>
+            </ul>
+        </Nav>
+    </header>
+    <p id="#Homepage">
+        You are now in our home page.
+    </p><br>
+    <p id="#Aboutus">
+        You want to know about who?
+    </p><br>
+    <p id="#Mapview">
+        <iframe style="margin-left: 35%;"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15305.524525669556!2d120.593122869938!3d16.456227935923682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a35c28b55395%3A0x3630364b2c870c47!2sMt.%20Yangbew!5e0!3m2!1sen!2sph!4v1707065862811!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+    </p>
  
-    <h2>Image</h2>
+    <!--<h2>Image</h2>
     <figure>
     <img src="BanditCopy.png" alt="Pixel Art">
     <figcaption>Bandit Pixel Art</figcaption>
-    </figure>
+    </figure-->
+    
+
 </body>
 </html>
