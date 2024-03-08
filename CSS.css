@@ -1,0 +1,18 @@
+body {
+    background-color:beige;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 75px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+a {
+    color: red;
+    font-size: 25px;
+}
